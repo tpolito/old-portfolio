@@ -1,26 +1,23 @@
 import React from 'react';
-import logo from './logo.svg';
+// import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
+import 'react-bulma-components/dist/react-bulma-components.min.css';
+// Section Imports (in order)
+import Hero from './components/sections/Hero';
+import AboutMe from './components/sections/AboutMe';
+import Projects from './components/sections/Projects';
+import Contact from './components/sections/Contact';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="colorBand" />
+      <Hero />
+      <AboutMe />
+      <Projects />
+      <Contact />
     </div>
   );
-}
+};
 
 export default App;
