@@ -1,4 +1,5 @@
 import React from 'react';
+import dndToolkit from './dnd-toolkit.png';
 
 const Projects = () => {
   return (
@@ -11,7 +12,7 @@ const Projects = () => {
           <div className="column">
             <figure className="image is-square project-img-fig">
               <img
-                src="https://via.placeholder.com/432x432"
+                src={dndToolkit}
                 className="is-hidden-mobile is-rounded"
                 alt="project thumbnail"
               />
