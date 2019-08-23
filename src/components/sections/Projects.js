@@ -1,5 +1,6 @@
 import React from 'react';
 import dndToolkit from './dnd-toolkit.png';
+import poeStashspy from './poe-stashspy.png';
 
 const Projects = () => {
   return (
@@ -28,16 +29,17 @@ const Projects = () => {
           <div className="column">
             <figure className="image is-square project-img-fig">
               <img
-                src="https://via.placeholder.com/432x432"
+                src={poeStashspy}
                 className="is-hidden-mobile is-rounded"
                 alt="project thumbnail"
               />
             </figure>
-            <p className="project-img-caption">Other Web Project</p>
+            <p className="project-img-caption">Path of Exile Stash Spy</p>
             <div class="tags">
               <span class="tag is-info">React</span>
               <span class="tag is-warning">JavaScript</span>
-              <span class="tag is-primary">Bulma</span>
+              <span class="tag is-link">API's</span>
+              <span class="tag is-primary">SASS</span>
             </div>
           </div>
           <div className="column">
