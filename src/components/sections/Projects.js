@@ -18,7 +18,7 @@ const Projects = () => {
                 alt="project thumbnail"
               />
             </figure>
-            <p className="project-img-caption">DnD Toolkit</p>
+            <p className="project-img-caption is-size-5">DnD Toolkit</p>
             <div class="tags">
               <span class="tag is-info">React</span>
               <span class="tag is-warning">JavaScript</span>
@@ -34,7 +34,9 @@ const Projects = () => {
                 alt="project thumbnail"
               />
             </figure>
-            <p className="project-img-caption">Path of Exile Stash Spy</p>
+            <p className="project-img-caption is-size-5">
+              Path of Exile Stash Spy
+            </p>
             <div class="tags">
               <span class="tag is-info">React</span>
               <span class="tag is-warning">JavaScript</span>
@@ -50,7 +52,7 @@ const Projects = () => {
                 alt="project thumbnail"
               />
             </figure>
-            <p className="project-img-caption">Platformer Game</p>
+            <p className="project-img-caption is-size-5">Platformer Game</p>
             <div class="tags">
               <span class="tag is-light">C#</span>
               <span class="tag is-success">Godot</span>
