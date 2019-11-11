@@ -12,13 +12,28 @@ const Projects = () => {
         <div className="columns is-vcentered">
           <div className="column">
             <figure className="image is-square project-img-fig">
-              <img
-                src={dndToolkit}
-                className="is-hidden-mobile is-rounded"
-                alt="project thumbnail"
-              />
+              <a
+                href="https://dndtoolkit.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={dndToolkit}
+                  className="is-hidden-mobile is-rounded"
+                  alt="project thumbnail"
+                />
+              </a>
             </figure>
-            <p className="project-img-caption is-size-5">DnD Toolkit</p>
+            <p className="project-img-caption is-size-5">
+              <a
+                href="https://dndtoolkit.app/"
+                style={{ color: 'white' }}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                DnD Toolkit
+              </a>
+            </p>
             <div class="tags">
               <span class="tag is-info">React</span>
               <span class="tag is-warning">JavaScript</span>
